@@ -26,9 +26,9 @@ module.exports = (env, argv) => {
       path: path.resolve(__dirname, `dist/`), // 使用环境变量来动态设置输出目录
       module: true,
       library: {
-        type: "module"
+        type: "this"
       },
-      globalObject: "window",
+      globalObject: "global",
     },
     plugins: [
       new WebpackShellPluginNext({
