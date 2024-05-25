@@ -1,2 +1,2 @@
 # ts-proj
-webpack+babel+ts
+webpack+babel+ts project
